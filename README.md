@@ -1,5 +1,5 @@
 # cGAN-Diagnose-Glaucoma
-diagnose glaucoma using synthetic OCT-A images from Fundus images. 
+diagnose Diabetic retinopathy using synthetic OCT-A images from Fundus images. 
 Dataset: https://zenodo.org/records/6476639
 1. pre-processing steps
 2. Pipeline to create dataset for train, test of Fundus and OCT-A images
