@@ -14,6 +14,10 @@ Encoder stage of U-Net: customized threshold-based Squeeze and excitaion (SE) bl
 5. Training the model
 7. Develop a Web based application (APP) to predict OCT-A pair from Fundus image
 
+The below fig. shows the fundus image, synthetic OCT-A image of conventional GAN, proposed GAN and GT OCT-A image.
+![WhatsApp Image 2025-04-17 at 5 01 48 PM](https://github.com/user-attachments/assets/52ad0e23-0eda-45d9-b9b8-71f60b748144)
+
+
 Reference:
 1.	https://zenodo.org/records/6476639 [1]
 2.	Coronado I, Pachade S, Trucco E, Abdelkhaleq R, Yan J, Salazar-Marioni S, Jagolino-Cole A, Bahrainian M, Channa R, Sheth SA, Giancardo L. Synthetic OCT-A blood vessel maps using fundus images and generative adversarial networks. Sci Rep 2023;13:15325. https://doi.org/10.1038/s41598-023-42062-9.
