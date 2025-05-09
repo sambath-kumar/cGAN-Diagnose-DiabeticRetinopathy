@@ -41,5 +41,5 @@ Encoder stage of U-Net: customized threshold-based Squeeze and excitaion (SE) bl
 **Entropy based Squeeze & Excitation**
 
 Reference:
-1.	https://zenodo.org/records/6476639 [1]
+1.	https://zenodo.org/records/6476639.
 2.	Coronado I, Pachade S, Trucco E, Abdelkhaleq R, Yan J, Salazar-Marioni S, Jagolino-Cole A, Bahrainian M, Channa R, Sheth SA, Giancardo L. Synthetic OCT-A blood vessel maps using fundus images and generative adversarial networks. Sci Rep 2023;13:15325. https://doi.org/10.1038/s41598-023-42062-9.
