@@ -9,13 +9,22 @@
                                 
                                 Screen Shot of the User friendly APP
 
-**File Descriptions**
-Fundus_OCTA_cGAN_v1. ipynb  -  Python code for BVAC GAN
 
-app.py                      -  Flask based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
+
+**File Descriptions and order**
+****Fundus_OCTA_cGAN_v1. ipynb** ** -  Python code for BVAC GAN
+
+****DR_classification. ipynb** **   -  DR Classification with Fundus and DR labels from [3]  & BVAC GAN synthesized OCTA pairs for the fundus images as supplementary input.  
+
+**app.py**                      -  Flask based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
 
 The Dataset is available in [1] and a similar research work to generate synthetic OCTA images using dataset [1] is available in [2].
+DR_classification. ipynb    -  Python code to diagnose Diabetic Retinopathy with Fundus images from dataset [3] and BVAC GAN synthesized OCTA images (Output of Fundus_OCTA_cGAN_v1. ipynb) 
 
+**ORDER OF EXECUTION**
+FIRST RUN  **Fundus_OCTA_cGAN_v1. ipynb**   to train BVAC GAN to synthesize OCTA paired images from the fundus imageas using dataset[1] available in [2].
+NEXT RUN  **DR_classification. ipynb**  with dataset in [3]. This code generates OCTA pairs for fundus images in [3] and classifies DR with DR labels available in [3]. 
+ 
 **Proposed Methodology:**
 The fundus imaging has no depth information of retinal vasculature and OCTA has no direct visualization of the Optic Disc, macula. Both the modalities hold complementary feature maps with respect to DR diagnosis. We propose a first of the kind model, combining the two modalities i. (original) fundus images ii. (GAN synthesized) OCT-A images to diagnose DR. We feed the fundus images and BVAC synthesized OCT-A images to 2 ResNet 50 CNNs with a merged Fully Connected layer for DR diagnosis.
 
@@ -29,17 +38,17 @@ Encoder stage of U-Net: customized threshold-based Squeeze and excitaion (SE) bl
 6. Develop a Web based application (APP) to predict OCT-A pair from Fundus image
 
    The below fig shows a fundus image sample, OCTA synthesized by conventional GAN, our BVAC GAN and the ground truth OCT-A
-
 ![image](https://github.com/user-attachments/assets/946a4a99-937b-449c-ace7-4c8d172f2cfa)
 
 ![WhatsApp Image 2025-05-09 at 2 26 27 PM (1)](https://github.com/user-attachments/assets/45058898-d3f1-49ac-b7c5-3b5499269d8b)
 
-**DR Diagnosis**
+                                               DR Diagnosis
 
 ![WhatsApp Image 2025-05-09 at 2 26 26 PM](https://github.com/user-attachments/assets/35c36d6f-771e-4003-b908-4aeff1e5d1f1)
 
-**Entropy based Squeeze & Excitation**
+                                    Entropy based Squeeze & Excitation
 
 Reference:
-1.	https://zenodo.org/records/6476639.
+1.	https://zenodo.org/records/6476639 
 2.	Coronado I, Pachade S, Trucco E, Abdelkhaleq R, Yan J, Salazar-Marioni S, Jagolino-Cole A, Bahrainian M, Channa R, Sheth SA, Giancardo L. Synthetic OCT-A blood vessel maps using fundus images and generative adversarial networks. Sci Rep 2023;13:15325. https://doi.org/10.1038/s41598-023-42062-9.
+3.	https://www.kaggle.com/datasets/benjaminwarner/resized-2015-2019-blindness-detection-images
