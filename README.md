@@ -6,15 +6,13 @@
                                 
 ![APP Screenshot](https://github.com/user-attachments/assets/28ee70b0-40fb-47c7-8c6f-d5ed49bcf8b5)
 
-                                
                                 Screenshot of the User friendly APP
 
-
-
 **File Descriptions and order**
-****Fundus_OCTA_cGAN_v1. ipynb** ** -  Python code for BVAC GAN
 
-****DR_classification. ipynb** **   -  DR Classification with Fundus and DR labels from [3]  & BVAC GAN synthesized OCTA pairs for the fundus images as supplementary input.  
+**Fundus_OCTA_cGAN_v1. ipynb**  -  Python code for BVAC GAN
+
+**DR_classification. ipynb**    -  DR Classification with Fundus and DR labels from [3]  & BVAC GAN synthesized OCTA pairs for the fundus images as supplementary input.  
 
 **app.py**                      -  Flask-based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
 
