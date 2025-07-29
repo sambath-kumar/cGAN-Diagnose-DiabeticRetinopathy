@@ -3,8 +3,8 @@
 ![WhatsApp Image 2025-05-05 at 5 28 07 PM (2)](https://github.com/user-attachments/assets/2e45dd15-12f0-48be-9a1c-d9bb885ff9ee)
 **Contributors:**
 1.Dr. C. Raja - Associate Professor/ECE, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai
-2.Dr. K. Sambath Kumar - Assistant Professor/ECE, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai
-3.Dr. P.B. Kaushik - Medical Director, Vasan Eye Care (ASG eye hospital group), Chennai
+2.Dr. K. Sambath Kumar - Assistant Professor/ECE, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai                                          3.Dr. P.B. Kaushik - Medical Director, Vasan Eye Care (ASG eye hospital group), Chennai
+                    
                               THE APP TESTED AND DEPLOYED IN HOSPITAL
                                 
 ![APP Screenshot](https://github.com/user-attachments/assets/28ee70b0-40fb-47c7-8c6f-d5ed49bcf8b5)
